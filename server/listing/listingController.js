@@ -1,0 +1,1 @@
+var Listing = require('./listingModel.js');
