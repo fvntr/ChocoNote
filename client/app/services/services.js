@@ -1,0 +1,2 @@
+
+angular.module('chocoNote.services', [])

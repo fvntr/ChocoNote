@@ -8,12 +8,16 @@
   
   <body>
     <h1>ChocoNote</h1>
-    <div id="content" ng-view>
+    <div ng-view>
     </div>
 
-    <script src="lib/angular.js"></script>
-    <script src="js/services/services.js"></script>
-    <script src="js/controllers/controllers.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+
+
+    <script src="app/app.js"></script>
+    <script src="app/listing/listing.js"></script>
+    <script src="app/records/records.js"></script>
   </body>
 
 </html>
