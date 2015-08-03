@@ -5,16 +5,15 @@
     <title>ChocoNote</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
   </head>
+  
   <body>
     <h1>ChocoNote</h1>
-    <div ng-view>
+    <div id="content" ng-view>
     </div>
 
-    <script src="lib/angular/angular.js"></script>
-    <script src="lib/angular-route/angular-route.js"></script>
-
-    <script src="app/auth/auth.js"></script>
-    <script src="app/links/links.js"></script>
-    <script src="app/services/services.js"></script>
-    <script src="app/app.js"></script>
+    <script src="lib/angular.js"></script>
+    <script src="js/services/services.js"></script>
+    <script src="js/controllers/controllers.js"></script>
   </body>
+
+</html>

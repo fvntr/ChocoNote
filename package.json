@@ -1,0 +1,37 @@
+{
+  "name": "ChocoNote",
+  "version": "1.0.0",
+  "description": "Personal chocolate journal",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fvntr/ChocoNote.git"
+  },
+  "keywords": [
+    "chocolate",
+    "journal"
+  ],
+  "author": "Phillip Ventura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fvntr/ChocoNote/issues"
+  },
+  "homepage": "https://github.com/fvntr/ChocoNote",
+  "dependencies": {
+    "express": "^4.13.3",
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-nodemon": "^0.4.0",
+    "mongoose": "^4.1.0"
+  },
+  "devDependencies": {}
+}
