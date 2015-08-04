@@ -1,10 +1,12 @@
-var express = require('express'); 
+var express = require('express');
 var mongoose = require('mongoose');
+var app = require('./server-config.js')
 
-var app = express(); 
+var port = 8080;
 
 mongoose.connect('mongodb://localhost/choconote');
 
-app.listen(8080);
+app.listen(port);
+console.log("Server running")
 
 module.exports = app; 
