@@ -52,3 +52,31 @@ h1 {
   clear: both;
   margin-top: 10px;
 }
+
+label {
+  display: block;
+}
+
+input, textarea {
+  border:1px solid #ccc;
+  min-height:30px;
+  outline: none;
+}
+
+.listform input {
+  margin-bottom:15px;
+  margin-top:5px;
+  width:280px;
+}
+
+.listform{
+  width:310px;
+    float: left;
+}
+
+textarea {
+  margin-bottom:15px;
+    margin-top:5px;
+  height: 350px;
+    width:250px;
+}

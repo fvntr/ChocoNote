@@ -12,6 +12,34 @@
 
 	<h1> {{title}}</h1>
 
+	<div class="listform">
+
+	    <label>Name:</label>
+	    <input type="text" name="chocolate.name" value="{{ chocolate.name }}" required/>
+
+	    <label>Origin:</label>
+	    <input type="text" name="chocolate.origin" value="{{ chocolate.origin }}"/>
+
+	    <label>Cocoa:</label>
+	    <input type="text" name="chocolate.cocoa" value="{{ chocolate.cocoa }}"/>
+
+	    <label>Region:</label>
+	    <input type="text" name="chocolate.region" value="{{ chocolate.region }}"/>
+
+	    <label>Maker:</label>
+	    <input type="text" name="chocolate.maker" value="{{ chocolate.maker }}"/>
+
+	    <button class="save">Save</button>
+	    <button class="delete">Delete</button>
+	</div>
+
+<div class="listnotes">
+    <label>Notes:</label>
+    <textarea name="chocolate.description">{{ chocolate.description }}</textarea>
+</div>
+
+
+
 
 
 
