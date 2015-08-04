@@ -2,14 +2,11 @@ var mongoose = require('mongoose');
 
 var ListingSchema = new mongoose.Schema({
 		name: String, 
-		chocolatier: String, 
 		origin: String,
-		content: String, 
-		sampled: {type: Date}, 
-		color: String, 
-		price: Number,
-		notes: String,
-		rating: Number, 
+		cocoa: String, 
+		region: String, 
+		maker: String,
+		description: String
 })
 
 module.exports = mongoose.model('Listing', ListingSchema);
