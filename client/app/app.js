@@ -11,8 +11,8 @@ angular.module('chocoNote', [
       controller: 'RecordsController'
     })
     .when('/listing', {
-      templateUrl: 'app/listings/listings.html',
-      controller: 'ListingsController'
+      templateUrl: 'app/listing/listing.html',
+      controller: 'ListingController'
     })
     .otherwise({
       redirectTo: '/records'

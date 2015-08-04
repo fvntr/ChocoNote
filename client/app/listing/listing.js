@@ -1,18 +1,7 @@
 angular.module('chocoNote.listings', [])
 
-.controller('ListingsController', function ($scope) {
+.controller('ListingController', function ($scope) {
+	$scope.title = "List your chocolate here:";
 
 });
-
-/*
-
-What does the listing do? 
-
-It relays information to the server 
-
-
-
-*/
-
-
 
